@@ -1,0 +1,1 @@
+Must pass the total size of the heap in terms of the number of 32-bit words (must be a positive even number).

@@ -35,6 +35,12 @@ class GcSemiSpace {
   intptr_t* Alloc(int32_t num_words, intptr_t * curr_frame_ptr);
 
  private:
+	int heap_size;
+	int semi_space_size;
+	intptr_t* from_space_ptr;
+	intptr_t* to_space_ptr;
+	intptr_t* heap_ptr;
+
   // Your private methods for functionality such as garbage
   // collection, stack walking, and copying live data should go here
 };
